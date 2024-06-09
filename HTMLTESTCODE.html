@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+body {
+  background-color: rgb(255, 0, 0);
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  font-family: calibri;
+}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+}
+
+</style>
+</head>
+<body>
+
+<h1>My First CSS Example</h1>
+<p>Write something there!</p>
+
+<input type="text" id="demo" onkeypress="myFunction()">
+
+<script>
+function myFunction() {
+  document.getElementById("demo").style.backgroundColor = "green";
+}
+</script>
+
+<button type="button" onclick='document.getElementById("demo").innerHTML = "Hello JavaScript!"'>Click Me! </button>
+
+</body>
+</html>
+
+
